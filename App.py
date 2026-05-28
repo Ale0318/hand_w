@@ -37,7 +37,7 @@ section[data-testid="stSidebar"] {
 
 </style>
 """, unsafe_allow_html=True)
-st.title('Reconocimiento de Dígitos escritos a mano')
+st.title('DigitVision AI')
 st.subheader("Dibuja el digito en el panel  y presiona  'Predecir'")
 
 # Add canvas component
