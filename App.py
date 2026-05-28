@@ -21,7 +21,7 @@ def predictDigit(image):
     return result
 
 # Streamlit 
-st.set_page_config(page_title='Reconocimiento de Dígitos escritos a mano', layout='wide')
+st.set_page_config(page_title='DigitVision AI', layout='wide')
 st.title('Reconocimiento de Dígitos escritos a mano')
 st.subheader("Dibuja el digito en el panel  y presiona  'Predecir'")
 
@@ -29,8 +29,8 @@ st.subheader("Dibuja el digito en el panel  y presiona  'Predecir'")
 # Specify canvas parameters in application
 drawing_mode = "freedraw"
 stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
-stroke_color = '#FFFFFF' # Set background color to white
-bg_color = '#000000'
+stroke_color = '#000000' # Set background color to white
+bg_color = '#FFFFFF'
 
 # Create a canvas component
 canvas_result = st_canvas(
