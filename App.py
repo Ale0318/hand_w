@@ -21,7 +21,7 @@ def predictDigit(image):
     return result
 
 # Streamlit 
-st.set_page_config(page_title='Reconocimiento de Dígitos escritos a mano', layout='wide')
+st.set_page_config(page_title='DigitVision AI', layout='wide')
 st.markdown("""
 <style>
 
